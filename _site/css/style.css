@@ -1,0 +1,220 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: lightcyan;
+    font-family: Calibri;
+}
+
+article,
+main {
+    max-width: 150ch;
+    padding: 0 2rem;
+    margin: 4rem 8rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(darkcyan, darkslategray);
+    color: lightgray;
+    width: 100%;
+    /* padding: 0.5rem; */
+}
+
+
+header a {
+   padding: 1.8rem 0.75rem;
+   margin-right: 2rem;
+   text-transform: uppercase;
+   font-size: 1.1rem;
+   letter-spacing: 2px;
+}
+
+header a:is(:hover, :focus-visible) {
+    color: black;
+    font-weight: bold;
+    background-color: khaki;
+}
+
+#logo {
+    height: 4rem;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+
+#search {
+    font-size: 1rem;
+    height: 1.4rem;
+    
+}
+
+#searchLabel {
+    font-size: 1rem;
+    color: lightgrey;
+}
+
+#searchBtn {
+    margin-right: 1.5rem;
+    padding: 3px;
+    background-color: lightblue;
+    border-radius: 0.5rem;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(darkcyan, darkslategray);
+    color: lightpink;
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    /* margin: auto; */
+}
+
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    background-color: burlywood;
+    text-transform: capitalize;
+    margin: 0.5rem;
+}
+
+#bLogos {
+    height: 18rem;
+    width: auto;
+}
+
+#mainPage {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 0;
+}
+
+#mainText {
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+#howTo {
+    font-size: 3rem;
+}
+
+
+#list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    margin: auto;
+    background-color: darkolivegreen;
+    max-width: 30rem;
+    border: 1px solid white;
+    text-transform:  capitalize;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#list:is(:hover, :focus-visible) {
+    background-color: khaki;
+}
+
+#list a:is(:hover, :focus-visible) {
+    color: black;
+    font-weight: bold;
+}
+
+
+p {
+    padding: 1rem;
+    max-width: 50rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+}
+
+img[alt*="Browser"]{
+    width: 90%;
+    padding: 1rem;
+    height: auto;
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+
+img[alt*="Ios"]{
+    width: 40%;
+    padding: 1rem;
+    height: auto;
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+img[alt*="Android"]{
+    width: 40%;
+    padding: 1rem;
+    height: auto;
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+img[alt*="Share"]{
+    width: 60%;
+    padding: 1rem;
+    height: auto;
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+img[alt*="Tab"]{
+    width: 90%;
+    padding: 1rem;
+    height: auto;
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+img[alt*="Bookmark"]{
+    width: 90%;
+    padding: 1rem;
+    height: auto;
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+ol  {
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 70%;
+}

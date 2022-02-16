@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="/../img/logo.png" alt="TechWorks">
+        <div>
+            <a href="/../">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <label id="searchLabel">Search:</label>
+            <input id="search" type="text">
+            <button id="searchBtn">Go</button>
+        </div>
+    </header>
+
+    <article>
+        {{ content | safe }}
+    </article>
+
+    <footer>Reyes - WDDM 121 | Copyright &copy 2022</footer>
+
+</body>
+</html>
