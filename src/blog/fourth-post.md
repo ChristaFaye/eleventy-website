@@ -1,5 +1,5 @@
 ---
-title: Hot to move bookmarks
+title: How to move bookmarks
 layout: "blog.njk"
 ---
 
