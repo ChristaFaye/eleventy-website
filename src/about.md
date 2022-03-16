@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-layout: "index.haml"
+layout: "about.haml"
 logo: 
     src: /../img/logo.png
     alt: TechWorksLogo
@@ -9,7 +9,7 @@ image:
     alt: browsers
 ---
 
-Hello from index md!!!
+Hello from about md!!!
 
 
 
