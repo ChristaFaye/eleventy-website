@@ -251,3 +251,11 @@ header a:is(:hover, :focus-visible) {
 #bg {
     text-decoration: none;
 }
+
+/* contact page */
+
+.contact-page button {
+    float: right;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}

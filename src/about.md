@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: HAML - About
 layout: "about.haml"
 logo: 
     src: /../img/logo.png

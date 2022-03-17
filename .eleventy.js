@@ -6,6 +6,8 @@ module.exports = function (eleventyConfig) {
     // eleventyConfig.addWatchTarget("./src/css");
     // Add image support
     eleventyConfig.addPassthroughCopy("./src/img");
+    let haml = require("hamljs");
+    eleventyConfig.setLibrary("haml", haml);
     return {
         dir: {
             input: "src",

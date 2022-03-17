@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: HAML - Index
 layout: "index.haml"
 logo: 
     src: /../img/logo.png
