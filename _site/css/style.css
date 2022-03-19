@@ -30,7 +30,7 @@ header {
     align-items: center;
     background-image: linear-gradient(purple, black);
     /* width: 100%; */
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -258,4 +258,9 @@ header a:is(:hover, :focus-visible) {
     float: right;
     margin-right: 1rem;
     font-size: 1.1rem;
+}
+
+.img-thumbnail {
+    width: 2rem;
+    margin: 0.3rem;
 }
